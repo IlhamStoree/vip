@@ -33,10 +33,10 @@ clear;clear;clear
 
   # // Banner
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "  Welcome To IlhamStore Script ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
+echo -e "  Welcome To ILHAM STORE SCRIPT ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e " This Will Quick Setup VPN Server On Your Server"
-echo -e "  Auther : ${green}Ilham Agasatya® ${NC}${YELLOW}(${NC} ${green} Ilham Store ${NC}${YELLOW})${NC}"
-echo -e " © Recode By My Self Ilham Store${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
+echo -e "  Auther : ${green}ILHAM AGASATYA® ${NC}${YELLOW}(${NC} ${green} ILHAM STORE ${NC}${YELLOW})${NC}"
+echo -e " © Recode By My Self ILHAM STORE${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 2
@@ -324,12 +324,13 @@ restart_system(){
 <code>Time     :</code><code>$TIMEZONE</code>
 <code>Exp Sc.  :</code><code>$EXPSC</code>
 <code>────────────────────</code>
-<b> ILHAM STORE TUNNELING </b>
+<b> ILHAM STORE SCRIPT  </b>
 <code>────────────────────</code>
 <i>Automatic Notifications From Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://wa.me/6283821682527"}]]}' 
-#"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ2","url":"https://wa.me/+6282131861788"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://wa.me/6287824016438"}]]}' 
+#"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ2","url":"https://wa.me/6287824016438"}]]}'
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
+
 }
 clear
 # Pasang SSL
