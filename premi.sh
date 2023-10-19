@@ -18,8 +18,8 @@ NC='\e[0m'
 red='\e[1;31m'
 green='\e[0;32m'
 TIMES="10"
-CHATID="-1813590936"
-KEY="6652568679:AAFrML-4hRqax0LxZKEWpBLbyjmn81PxtmU"
+CHATID="-1001973626140"
+KEY="5627879486:AAE0uDsbjwLGUVa9BjCDLU01Cd2F8xFpd8o"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 # ===================
 clear
@@ -309,16 +309,7 @@ clear
 
 clear
 #GANTI PASSWORD DEFAULT
-
-clear
-# Pasang SSL
-function pasang_ssl() {
-clear
-print_install "Memasang SSL Pada Domain"
-    rm -rf /etc/xray/xray.key
-    rm -rf /etc/xray/xray.crt
-    domain=$(cat /root/domain)
-    STOPWEBSERVER=$(lsof -i:80 | cut -d' ' -f1 |function restart_system(){
+restart_system(){
     USRSC=$(curl -sS https://raw.githubusercontent.com/IlhamStoree/izin/main/ip | grep $MYIP | awk '{print $2}')
     EXPSC=$(curl -sS https://raw.githubusercontent.com/IlhamStoree/izin/main/ip | grep $MYIP | awk '{print $3}')
     TIMEZONE=$(printf '%(%H:%M:%S)T')
@@ -333,11 +324,11 @@ print_install "Memasang SSL Pada Domain"
 <code>Time     :</code><code>$TIMEZONE</code>
 <code>Exp Sc.  :</code><code>$EXPSC</code>
 <code>────────────────────</code>
-<b> ILHAM STORE SCRIPT </b>
+<b> ILHAM STORE TUNNELING </b>
 <code>────────────────────</code>
 <i>Automatic Notifications From Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://wa.me/6287824016438"}]]}' 
-#"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ2","url":"https://wa.me/+6287824016438"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://wa.me/6283821682527"}]]}' 
+#"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ2","url":"https://wa.me/+6282131861788"}]]}'
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
 clear
