@@ -18,7 +18,7 @@ NC='\e[0m'
 red='\e[1;31m'
 green='\e[0;32m'
 TIMES="10"
-CHATID="-1813590936"
+CHATID="1813590936"
 KEY="6341004088:AAEl07D-R7EuxaQ72p-pTr4jUjtDmZccfFw"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 # ===================
