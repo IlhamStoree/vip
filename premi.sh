@@ -319,6 +319,9 @@ restart_system(){
 <code>────────────────────</code>
 <code>Owner    :</code><code>$username</code>
 <code>Domain   :</code><code>$domain</code>
+<code>IPVPS    :</code><code>$ipvps</code>
+<code>ISP      :</code><code>$isp</code>
+<code>RAM      :</code><code>$uram</code>
 <code>CITY     :</code><code>$CITY</code>
 <code>Time     :</code><code>$TIMEZONE</code>
 <code>Exp Sc.  :</code><code>$exp</code>
